@@ -208,3 +208,4 @@
 <div class="footer">
     © 2024 La Gazzetta del Giorno - Tutti i diritti riservati
 </div>
+    

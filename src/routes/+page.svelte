@@ -8,7 +8,7 @@
         isMenuOpen = !isMenuOpen;
     }
 </script>
-    
+
 <style>
     body {
         font-family: 'Arial', sans-serif;
@@ -208,3 +208,4 @@
 <div class="footer">
     © 2024 La Gazzetta del Giorno - Tutti i diritti riservati
 </div>
+    

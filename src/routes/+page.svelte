@@ -5,7 +5,7 @@
     let isMenuOpen = false;
 
     function toggleMenu() {
-        isMenuOpen = !isM   enuOpen;
+        isMenuOpen = !isMenuOpen;
     }
 </script>
 

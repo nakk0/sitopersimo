@@ -1,7 +1,7 @@
 <script>
-    import foto1 from "$lib/images/foto1.jpg";
-    import foto2 from "$lib/images/foto2.jpg";
-    import foto3 from "$lib/images/foto3.jpg";
+    import foto1 from "$lib/images/foto1.png";
+    import foto2 from "$lib/images/foto2.png";
+    import foto3 from "$lib/images/foto3.png";
     let isMenuOpen = false;
 
     function toggleMenu() {
@@ -171,25 +171,28 @@
 <div class="container">
     <!-- Main Content -->
     <div class="main-content">
-        <h1 class="article-title">Il Bar Biancone Rinnova il Piano Bar: Dal Punk Rock al Pop</h1>
-        <img src={foto1} alt="Foto del Bar Biancone" style="width: 100%;">
+        <h1 class="article-title">Cala del Rosso, occhi puntati sull'orizzonte: attesa un'onda anomala nelle prossime ore</h1>
+        <img src={foto1} alt="Foto cala rosso" style="width: 100%;">
         <p class="article-content">
-            <span class="highlight">Il Biancone cambia veste</span>: storico locale noto per i concerti di <span class="highlight">punk rock</span> e <span class="highlight">blues</span>, il <em>Bar Biancone</em> ha deciso di sorprendere ancora una volta il suo affezionato pubblico con una trasformazione radicale. Dai <span class="highlight">Metallica</span> a <span class="highlight">Lucio Battisti</span>, la rivoluzione è servita.
+            <span class='highlight'>Fertilia (SS)</span> — Le condizioni del mare davanti alla Cala del Rosso stanno cambiando in modo insolito. Diversi indicatori tecnici raccolti oggi descrivono un possibile innalzamento improvviso del moto ondoso su un fronte stretto, con formazione di un'onda isolata in grado di superare nettamente l'altezza media delle onde attuali. L'evento, se confermato, potrebbe presentarsi senza un segnale evidente fino a pochi istanti prima dell'impatto a riva.
         </p>
+        <img src={foto2} alt="altra foto cala rosso" style="width: 100%;">
+        <p class='article-content'>Secondo le analisi preliminari, nelle prossime ore potrebbero verificarsi:</p>
+        <ul>
+            <li><p class='article-content'><b>pause anomale tra un'onda e l'altra</b>, con lunghi secondi di calma apparente</p></li>
+            <li><p class='article-content'><b>una linea scura e netta all'orizzonte</b> che avanza più veloce del normale</p></li>
+            <li><p class='article-content'><span class="highlight">un ritiro dell'acqua insolitamente marcato subito prima dell'arrivo del fronte</span></p></li>
+        </ul>
         <p class="article-content">
-            Conosciuto per anni come uno dei pochi luoghi in cui respirare l'atmosfera del vero rock underground, il <em>Bar Biancone</em> era sinonimo di serate energiche, piene di chitarre elettriche distorte e batterie incalzanti. Ma oggi, il locale ha deciso di puntare su un'esperienza completamente diversa: <span class="highlight">piano bar</span> e musica pop. "I ragazzi del Biancone si sono inteneriti," scherza uno dei clienti abituali. 
+            I modelli indicano che il punto più esposto sarebbe il <span class="highlight">piccolo anfiteatro di roccia a sinistra della cala</span> guardando il mare, dove i riflessi del fondale creano correnti laterali che possono incanalare l'energia dell'onda. Il fenomeno potrebbe manifestarsi in un'unica cresta rilevante oppure in due impulsi ravvicinati, con la seconda onda più irregolare della prima.
         </p>
-        <img src={foto2} alt="Altra Foto del Bar Biancone" style="width: 100%;">
+        <img src={foto3} alt="altra foto cala rosso" style="width: 100%;">
         <p class="article-content">
-            "Sono passati dal pogare ai tavolini con le tovaglie a quadretti," commenta un altro frequentatore ridendo. "Probabilmente tra poco inizieranno anche a servire tisane rilassanti al posto della birra!" L’ironia è palpabile, ma molti riconoscono che il nuovo format ha un suo fascino particolare.
+            Le autorità non parlano più solo di prudenza: <span class="highlight">è stato emesso un ordine di evacuazione immediata dell'area della Cala del Rosso.</span> Tutti i presenti sono invitati a lasciare la spiaggia e le scogliere senza indugi, portando con sé solo l'essenziale.
+            È stato inoltre richiesto ai diportisti di <span class="highlight">mollare subito gli ormeggi e allontanarsi con le barche dalla linea costiera</span>, perché l'onda potrebbe spingere con violenza i natanti contro gli scogli e le banchine.
+            Chi si attarda rischia di trovarsi intrappolato dal fronte d'acqua che potrebbe abbattersi senza preavviso.
         </p>
-        <p class="article-content">
-            Le nuove serate al Biancone sembrano uscite da un vecchio film romantico, con luci soffuse, candele e una playlist che spazia da Elton John a qualche sconosciuto crooner locale. "Ormai manca solo che si metta qualcuno a leggere poesie," commenta sarcastico un giovane cliente. "A questo punto possiamo aspettarci anche una degustazione di formaggi francesi!"
-        </p>
-        <img src={foto3} alt="Altra Foto del Bar Biancone" style="width: 100%;">
-        <p class="article-content">
-            Nonostante il cambiamento radicale, il <em>Bar Biancone</em> non dimentica le sue radici. Ogni venerdì sera sarà ancora dedicato a serate a tema rock e punk, con l'obiettivo di mantenere viva l'anima che ha reso famoso il locale. Ma i fan del vecchio Biancone sono ancora perplessi: "Chissà, magari tra un po' vedremo anche i DJ set di baby dance," conclude scherzosamente un avventore.
-        </p>
+        
     </div>
 
     <!-- Sidebar -->
@@ -206,6 +209,6 @@
 </div>
 
 <div class="footer">
-    © 2024 La Gazzetta del Giorno - Tutti i diritti riservati
+    © 2025 La Gazzetta di Fertilia - Tutti i diritti riservati
 </div>
     
